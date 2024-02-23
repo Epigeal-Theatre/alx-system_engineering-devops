@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# will print the str 'best school' till i get less than 10
+
+i=0
+
+until [ $i -eq 10 ]
+do
+    echo "Best School"
+    ((i++))
+done
